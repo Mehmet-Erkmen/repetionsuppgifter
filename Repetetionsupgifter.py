@@ -58,8 +58,23 @@
 
 #8
 
-min_meny = ["Pizza", "Hamburgare", "Sallad", "Soppa", "Pasta"]
+# min_meny = ["Pizza", "Hamburgare", "Sallad", "Soppa", "Pasta"]
 
-print(min_meny[::3])
-print(min_meny[::-1])
+# print(min_meny[::3])
+# print(min_meny[::-1])
 
+#9
+
+def mult(x,y=10):
+    print(x*y)
+# mult(5)
+
+# print(mult())
+
+#10
+
+min_lista = [5, 10, 15, 20, 25]
+
+print(min_lista[0])
+print(min_lista[-2])
+print(min_lista[10])
